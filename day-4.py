@@ -27,7 +27,7 @@ for i in range(range_start, range_end):
 					flag = False
 					break
 		if flag:
-			#print "true: " + str(i)
+			#print "trues: " + str(i)
 			count += 1
 print count
 print datetime.now() - startTime 
